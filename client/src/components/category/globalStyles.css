@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.category_title {
+  font-family: "https://fonts.googleapis.com/css2?family=Pacifico&display=swap";
+
+  font-style: oblique;
+  padding-left: 2.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+  .category_title {
+    text-align: center;
+  }
+}
