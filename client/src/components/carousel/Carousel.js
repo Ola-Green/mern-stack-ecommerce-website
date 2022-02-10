@@ -22,7 +22,7 @@ export const Carousel = () => {
         <div className="carousel-item active">
           <img
             src="/images/5.jpg"
-            className="d-block w-100"
+            className="carousel-img"
             alt="First Slide"
           />
 
@@ -52,7 +52,7 @@ export const Carousel = () => {
           <img
             src="/images/2.jpg"
             alt="Second Slide"
-            className="d-block w-100"
+            className="carousel-img"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5
@@ -74,7 +74,7 @@ export const Carousel = () => {
           <img
             src="/images/3.jpg"
             alt="Third Slide"
-            className="d-block w-100"
+            className="carousel-img"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5 className="animated zoomIn" style={{ animationDelay: "1s" }}>
