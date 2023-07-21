@@ -51,7 +51,7 @@ function Category() {
 
           <div onMouseLeave={dragStop} style={{ paddingTop: "20px" }}>
             <ScrollMenu
-              onWheel={onWheel}
+             onWheel={onWheel}
               onMouseDown={() => dragStart}
               onMouseUp={() => dragStop}
               onMouseMove={handleDrag}
